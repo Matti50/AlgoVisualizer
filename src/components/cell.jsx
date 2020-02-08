@@ -11,6 +11,8 @@ class Cell extends React.Component{
     
     handleClick(){
         console.log(this.props.info.coorX + "-"+this.props.info.coorJ);
+        console.log(this.props.info.adyacents);
+        console.log(this.props.info.isVisited);
     }
 
 

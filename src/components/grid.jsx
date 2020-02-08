@@ -1,6 +1,7 @@
 import React from "react";
 import Cell from "./cell";
-
+import {dijkstra} from "../js/dijkstra";
+import { timeout } from "q";
 
 class Grid extends React.Component{
     
@@ -12,7 +13,11 @@ class Grid extends React.Component{
         }
     }
 
-    
+    componentDidMount(){
+        let newGrid = dijkstra(this.state.grid,30,15,2);
+        console.log(newGrid);
+        this.setState({grid: newGrid});
+    }
 
 
     render(){
