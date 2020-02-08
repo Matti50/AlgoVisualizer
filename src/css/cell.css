@@ -1,0 +1,35 @@
+.cell{
+    width:20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+/*
+
+    para cuando sepa como manejar el estado de una manera más decente
+.cell p{
+    font-size:10px;
+    text-align: center;
+    color: black;
+    z-index: 30;
+}
+
+.cell:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+*/
+.start-node{
+    background-color: red;
+}
+.start-node:hover{
+    background-color: red;
+}
+
+.end-node{
+    background-color: green;
+}
+
+.end-node:hover{
+    background-color: green;
+}
