@@ -33,3 +33,7 @@
 .end-node:hover{
     background-color: green;
 }
+
+.visited{
+    background-color: blue;
+}

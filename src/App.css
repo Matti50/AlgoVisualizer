@@ -10,10 +10,11 @@ body{
     
     
 }
-
+/*FIX THE GRID PARA QUE SE VEA BIEN TIENE QUE ESTAR SIMÉTRICO*/
 .main{
-    max-width: 1120px;
+    max-width: 660px;
     margin: 0 auto;
-    margin-top: 20px
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 

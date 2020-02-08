@@ -22,6 +22,9 @@ class Cell extends React.Component{
         }else if(this.props.info.isStart){
             classes += " start-node";
         }
+        else if(this.props.info.isVisited){
+            classes += " visited"
+        }
         return(
             <div className={classes} onClick={this.handleClick}> 
                 
